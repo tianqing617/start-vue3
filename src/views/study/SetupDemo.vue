@@ -1,5 +1,5 @@
 <script>
-// 介绍：setup标准使用方法
+// 介绍：setup标准使用方法。https://cn.vuejs.org/api/sfc-script-setup.html
 // import { h } from 'vue';
 
 export default {
