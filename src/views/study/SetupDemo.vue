@@ -1,11 +1,5 @@
-<template>
-  <div class="setup-demo">
-    姓名：<span>{{ name }}</span>
-    年龄：<span>{{ age }}</span>
-  </div>
-</template>
-
 <script>
+// 介绍：setup标准使用方法
 // import { h } from 'vue';
 
 export default {
@@ -25,3 +19,10 @@ export default {
   }
 }
 </script>
+
+<template>
+  <div class="setup-demo">
+    姓名：<span>{{ name }}</span>
+    年龄：<span>{{ age }}</span>
+  </div>
+</template>
