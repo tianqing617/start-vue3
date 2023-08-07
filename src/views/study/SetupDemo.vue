@@ -6,16 +6,22 @@
 </template>
 
 <script>
+// import { h } from 'vue';
+
 export default {
   name: 'SetupDemo',
   setup() {
     let name = '张三';
     let age = 18;
 
+    // 方式一：通过template渲染
     return {
       name,
       age,
     }
+
+    // 方式二：通过render渲染
+    // return () => h('span', '姓名：' + name);
   }
 }
 </script>
