@@ -16,6 +16,7 @@ export default {
   props: ['school'],
   emits: ['graduate'],
   setup(props, context) {
+    // context包含：attrs、emit、slots
     console.log(props, context);
 
     const person = reactive({
