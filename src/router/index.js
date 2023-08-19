@@ -37,6 +37,15 @@ const router = createRouter({
       name: 'ComputedDemo',
       component: () => import('../views/study/ComputedDemo.vue')
     },
+    {
+      path: '/watch-demo',
+      name: 'WatchDemo',
+      component: () => import('../views/study/WatchDemo.vue')
+    }, {
+      path: '/hook-demo',
+      name: 'HookDemo',
+      component: () => import('../views/study/HookDemo/index.vue')
+    },
   ]
 })
 

@@ -18,6 +18,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/setup-demo2">Setup2</RouterLink>
         <RouterLink to="/component-demo">ComponentDemo</RouterLink>
         <RouterLink to="/computed-demo">ComputedDemo</RouterLink>
+        <RouterLink to="/watch-demo">WatchDemo</RouterLink>
+        <RouterLink to="/hook-demo">HookDemo</RouterLink>
       </nav>
     </div>
   </header>
